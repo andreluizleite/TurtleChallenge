@@ -1,0 +1,85 @@
+# Build Folders
+bin/
+obj/
+
+# User-Specific Files
+*.user
+*.userosscache
+*.suo
+*.ntvs*
+*.njsproj
+*.sln.docstates
+
+# Visual Studio
+.vs/
+
+# Rider
+.idea/
+
+# Visual Studio Code
+.vscode/
+
+# NuGet Packages
+*.nupkg
+*.snupkg
+packages/
+
+# Mac Files
+.DS_Store
+
+# Windows Thumbnail Caches
+Thumbs.db
+ehthumbs.db
+
+# Image Caches
+*.rsrc/
+
+# Web Publishing
+.publish/
+
+# Logs
+*.log
+
+# Compiled Source
+*.dll
+*.exe
+*.pdb
+*.mdb
+
+# Generated Files
+*.g.cs
+*.g.i.cs
+*.generated.cs
+
+# Temporary Files
+*.tmp
+*.temp
+*.bak
+~$*
+
+# Resharper
+_ReSharper*/
+
+# Coverage Reports
+*.coverage
+*.coveragexml
+*.codecov
+
+# Crash Reports
+hs_err_pid*
+
+# OS Generated Files
+Icon?
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Azure Deployment
+.azure/
+
+# Local Database Files
+*.mdf
+*.ldf
+
+# dotnet tools
+**/.dotnet/tools

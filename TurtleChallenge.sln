@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TurtleChallenge.ConsoleApp", "TurtleChallenge.ConsoleApp\TurtleChallenge.ConsoleApp.csproj", "{E03AB4BA-3547-45EB-B8EC-5D2D07487952}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TurtleChallenge.Domain", "TurtleChallenge.Domain\TurtleChallenge.Domain.csproj", "{340C98B4-5B42-41E4-97EF-9DDC2D108E0A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TurtleChallenge.Infrastructure", "TurtleChallenge.Infrastructure\TurtleChallenge.Infrastructure.csproj", "{FEAE7A46-0600-44E2-980B-5CF49868A982}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TurtleChallenge.Application", "TurtleChallenge.Application\TurtleChallenge.Application.csproj", "{91228245-378E-4439-A221-7B8078AFFD1A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TurtleChallenge.Tests", "TurtleChallenge.Tests\TurtleChallenge.Tests.csproj", "{61836F38-9A12-4C5E-9FB9-E7C7D027158E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E03AB4BA-3547-45EB-B8EC-5D2D07487952}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E03AB4BA-3547-45EB-B8EC-5D2D07487952}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E03AB4BA-3547-45EB-B8EC-5D2D07487952}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E03AB4BA-3547-45EB-B8EC-5D2D07487952}.Release|Any CPU.Build.0 = Release|Any CPU
+		{340C98B4-5B42-41E4-97EF-9DDC2D108E0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{340C98B4-5B42-41E4-97EF-9DDC2D108E0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{340C98B4-5B42-41E4-97EF-9DDC2D108E0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{340C98B4-5B42-41E4-97EF-9DDC2D108E0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEAE7A46-0600-44E2-980B-5CF49868A982}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEAE7A46-0600-44E2-980B-5CF49868A982}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEAE7A46-0600-44E2-980B-5CF49868A982}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEAE7A46-0600-44E2-980B-5CF49868A982}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91228245-378E-4439-A221-7B8078AFFD1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91228245-378E-4439-A221-7B8078AFFD1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91228245-378E-4439-A221-7B8078AFFD1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91228245-378E-4439-A221-7B8078AFFD1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61836F38-9A12-4C5E-9FB9-E7C7D027158E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61836F38-9A12-4C5E-9FB9-E7C7D027158E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61836F38-9A12-4C5E-9FB9-E7C7D027158E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61836F38-9A12-4C5E-9FB9-E7C7D027158E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C9CF9BD0-D504-4C7E-B7EC-4058721C424D}
+	EndGlobalSection
+EndGlobal
