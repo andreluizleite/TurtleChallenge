@@ -1,4 +1,5 @@
 ﻿using TurtleChallenge.Domain.Entities;
+using TurtleChallenge.Domain.Enums;
 using TurtleChallenge.Domain.Services;
 
 namespace TurtleChallenge.Application
@@ -16,7 +17,7 @@ namespace TurtleChallenge.Application
                 _gameLogic = gameLogic;
             }
 
-            public string Simulate(IEnumerable<char> moves)
+            public GameOutcome Simulate(IEnumerable<char> moves)
             {
                 foreach (var move in moves)
                 {
@@ -24,10 +25,10 @@ namespace TurtleChallenge.Application
                     else if (move == 'm') _turtle.Move();
 
                     var result = _gameLogic.EvaluateTurtleState(_turtle);
-                    if (result != "Incomplete") return result;
+                    if (result != GameOutcome.Incomplete) return result;
                 }
 
-                return "Incomplete";
+                return GameOutcome.Incomplete;
             }
         }
     }

@@ -1,9 +1,10 @@
-﻿using System;
-using TurtleChallenge.Application.TurtleChallenge.Application;
+﻿using TurtleChallenge.Application.TurtleChallenge.Application;
 using TurtleChallenge.Domain.Entities;
+using TurtleChallenge.Domain.Interfaces;
 using TurtleChallenge.Domain.Services;
 using TurtleChallenge.Domain.ValueObjects;
 using TurtleChallenge.Infrastructure.FileHandling;
+using TurtleChallenge.Infrastructure.Rules;
 
 class Program
 {
@@ -30,7 +31,15 @@ class Program
             // Load game settings and moves
             var (board, _) = FileReader.LoadGameSettings(settingsFilePath);
             var moveSequences = FileReader.LoadMoves(movesFilePath);
-            var gameLogic = new GameLogic(board);
+
+            var rules = new List<IGameRule>
+            {
+                new ExitRule(),
+                new MineRules(),
+                new OutOfBoundsRule()
+            };
+
+            var gameLogic = new GameLogic(rules, board);
 
             // Display board information
             Console.WriteLine($"Board: {board.Width} x {board.Height}");
