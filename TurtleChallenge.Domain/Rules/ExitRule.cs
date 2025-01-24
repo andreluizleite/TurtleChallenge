@@ -2,13 +2,13 @@
 using TurtleChallenge.Domain.Enums;
 using TurtleChallenge.Domain.Interfaces;
 
-namespace TurtleChallenge.Infrastructure.Rules
+namespace TurtleChallenge.Domain.Rules
 {
-    public class MineRules : IGameRule
+    public class ExitRule : IGameRule
     {
         public GameOutcome Evaluate(Turtle turtle, Board board)
         {
-            return board.IsMine(turtle.Position) ? GameOutcome.FailureHitMine : GameOutcome.Incomplete;
+            return board.IsExit(turtle.Position) ? GameOutcome.Success : GameOutcome.Incomplete;
         }
     }
 }

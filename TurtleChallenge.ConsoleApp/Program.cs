@@ -4,7 +4,7 @@ using TurtleChallenge.Domain.Interfaces;
 using TurtleChallenge.Domain.Services;
 using TurtleChallenge.Domain.ValueObjects;
 using TurtleChallenge.Infrastructure.FileHandling;
-using TurtleChallenge.Infrastructure.Rules;
+using TurtleChallenge.Domain.Rules;
 
 class Program
 {
